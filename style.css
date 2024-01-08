@@ -1,0 +1,283 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -12px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 20px;
+    font-size: 16px;
+}
+
+li:hover {
+    cursor: pointer;
+    color: #ed580d;
+}
+
+button {
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    left: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: 7px;
+}
+
+.signup {
+    position: absolute;
+    right: 0px;
+}
+
+.signup button {
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.left {
+    margin-left: 100px;
+}
+
+.right {
+    margin-right: 100px;
+}
+
+
+.main-section {
+    display: flex;
+    margin-left: 100px;
+}
+
+.content {
+    width: 56%;
+}
+
+.content h1 {
+    font-size: 3rem;
+}
+
+.content .top-heading {
+    margin-bottom: 0px;
+}
+
+.content .bottom-heading {
+    margin-top: 0px;
+
+}
+
+.content p {
+    font-size: 1.2rem;
+    width: 55%;
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+
+.content button {
+    height: 40px;
+    width: 105px;
+    background-color: white;
+    border: 1px solid black;
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.content .btn {
+    background-color: #ed580d;
+    border: none;
+    color: rgb(250, 252, 252);
+}
+
+.btn:hover {
+    background-color: #fc742f;
+}
+
+.btn-bg:hover {
+    background-color: #ed580d;
+    color: white;
+    border: none;
+}
+
+
+/* foooter section */
+
+.footer {
+    display: flex;
+    padding-left: 100px;
+    padding-top: 29px;
+    background-color: #291e43;
+    color: white;
+    padding-bottom: 51px;
+}
+
+body {
+    margin: 0px;
+}
+
+.footer .img {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.footer img {
+    width: 17px;
+}
+
+p {
+    opacity: .78;
+}
+
+.footer .content-section {
+    width: 27%;
+    margin-right: 70px;
+}
+
+.footer .content-section h2 {
+    width: 200px;
+    line-height: 33px;
+    margin-top: 0px;
+    font-weight: lighter;
+}
+
+.footer h4 {
+    font-weight: lighter;
+}
+
+.footer .content-section p {
+    width: 269px;
+}
+
+.footer .teacher-section {
+    width: 20%;
+    margin-right: 40px;
+}
+
+.footer .teacher-section .img {
+    background-color: #0da687;
+}
+
+.footer .online-section {
+    width: 20%;
+    margin-right: 40px;
+}
+
+.footer .online-section .img {
+    background-color: rgb(237, 88, 13);
+}
+
+.footer .support-section {
+    width: 20%;
+    margin-right: 40px;
+
+}
+
+.footer .support-section .img {
+    background-color: #510acc;
+}
+
+
+.footer p {
+    line-height: 22px;
+
+}
+
+/*right side image section */
+
+.image-section img {
+    width: 300px;
+}
+
+#bg-image::before {
+    content: "";
+    position: absolute;
+    background: url(./img/main-image.png) center center/cover no-repeat;
+    height: 390px;
+    width: 300px;
+    margin-top: 59px;
+    margin-left: 60px;
+    height: 269px;
+    width: 182px;
+}
+
+#bgc-image {
+    padding-left: 30px;
+
+}
+
+.image-section {
+    height: 445px;
+    width: 490px;
+
+}
+
+.image-section img {
+    margin-top: 5vh;
+    height: 50vh;
+}
+
+#bgc-image .img-black img {
+    position: absolute;
+    top: 112px;
+    height: 300px;
+}
+
+.img-sign1 {
+    position: relative;
+    left: 260px;
+    top: -25px;
+}
+
+.img-sign1 img {
+    height: 120px;
+    rotate: -25deg;
+}
+
+.img-sign2 img {
+    position: absolute;
+    left: 600px;
+    top: 140px;
+    height: 22px;
+}
+
+.img-sign3 img {
+    position: relative;
+    top: -90px;
+    left: 720px;
+    height: 22px;
+}
+
+.img-sign4 img {
+    position: absolute;
+    right: 125px;
+    bottom: 200px;
+    height: 22px;
+}
+
+
+
+
+
